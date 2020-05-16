@@ -7,12 +7,18 @@ RUN gem install debase
 # To install the latest version of bundler
 RUN gem install bundler:2.0.1
 
-COPY Gemfile /root/
-COPY Gemfile.lock /root/
-RUN cd /root/ && bundle install
+# COPY Gemfile /root/
+# COPY Gemfile.lock /root/
+# RUN cd /root/ && bundle install
 
 # Install git, process tools
-RUN apt-get update && apt-get -y install git procps
+RUN apt-get update && \
+apt-get -y install git procps && \
+apt-get -y install nodejs
+
+RUN gem install rails -v '5.2.0'
+
+# RUN gem uninstall rails -v '6.0.3'
 
 # Clean up
 RUN apt-get autoremove -y \
