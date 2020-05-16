@@ -4,7 +4,7 @@
 	"dockerFile": "Dockerfile",
 
 	// Uncomment the next line if you want to publish any ports.
-  "forwardPorts": [4567],
+  "forwardPorts": [3000],
 
 	// Uncomment the next line if you want to add in default container specific settings.json values
 	"settings":  {
