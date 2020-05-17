@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: memery-backend
+    group_suffix: null
+global:
+  application_name: memery-api
+  branch: null
+  default_ec2_keyname: brian_old_macbook
+  default_platform: Ruby 2.6 (Puma)
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: null
+  workspace_type: Application
+
+
