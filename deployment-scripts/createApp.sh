@@ -1,3 +1,4 @@
 eb create develop \
 --elb-type application \
---enable-spot
+--enable-spot \
+--keyname brian_old_macbook 
