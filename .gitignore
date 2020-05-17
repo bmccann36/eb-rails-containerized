@@ -30,6 +30,8 @@
 /config/master.key
 setEnvVars.sh
 
+vendor/**
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
