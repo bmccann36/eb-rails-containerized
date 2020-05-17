@@ -1,7 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## deploying to a new AWS account
+
+*prerequisites*
+- aws account with iam user
+- aws-cli installed and credentials configured
+- elastic beanstalk cli installed 
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
+
+
 
 Things you may want to cover:
 
